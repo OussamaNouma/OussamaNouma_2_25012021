@@ -118,7 +118,14 @@ input[type="search"] {
   font-weight: bold;
   font-size: 1.13em;
 }
-
+.filter_item:hover {
+  background-color: #deebff;
+  color: #0065fc;
+}
+.filter_item:hover .filter_icon {
+  background-color: #0065fc;
+  color: #deebff;
+}
 .filter_icon {
   color: #0065fc;
   font-size: 1.1em;
