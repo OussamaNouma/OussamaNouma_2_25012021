@@ -267,3 +267,83 @@ input[type="search"] {
 .price {
   font-weight: bold;
 }
+.activites {
+  margin-top: 50px;
+}
+.activites_container {
+  margin-top: 20px;
+  width: 97%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.small_container {
+  margin-top: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.general_activites_background_proprety {
+  width: 405px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.15);
+}
+.general_avtivites_image_proprety {
+  border-radius: 20px 20px 0px 0px;
+  width: 405px;
+}
+.box_background_one_four {
+  margin-top: 20px;
+  height: 650px;
+}
+.box_image_one {
+  object-fit: none;
+  height: 600px;
+  object-position: 40% 65%;
+}
+.box_image_two {
+  object-fit: cover;
+  height: 315px;
+  object-position: center;
+}
+.box_background_two {
+  height: 365px;
+}
+.box_image_three {
+  object-fit: cover;
+  height: 180px;
+  object-position: top left;
+}
+.box_background_three {
+  margin-top: 20px;
+  height: 230px;
+}
+.box_image_four {
+  object-fit: none;
+  height: 600px;
+}
+.box_image_five {
+  object-fit: cover;
+  height: 245px;
+  object-position: 50% 20%;
+}
+.box_background_five {
+  height: 295px;
+}
+.box_image_six {
+  object-fit: cover;
+  height: 250px;
+  object-position: 50% 20%;
+}
+.box_background_six {
+  margin-top: 20px;
+  height: 300px;
+}
+.description_activites {
+  margin-top: 10px;
+  font-weight: bold;
+  padding-left: 25px;
+}
