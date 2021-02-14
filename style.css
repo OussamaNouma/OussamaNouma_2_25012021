@@ -157,3 +157,57 @@ input[type="search"] {
   padding-top: 1px;
   margin-right: 10px;
 }
+.container_lodging {
+  display: flex;
+  margin-top: 40px;
+}
+.background_lodging {
+  background-color: #f2f2f2;
+  width: 65%;
+  height: auto;
+  border-radius: 20px;
+}
+.title_lodging {
+  margin-left: 55px;
+  margin-top: 40px;
+}
+.lodging {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.lodging_item {
+  padding: 5px 5px 5px 5px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  height: 250px;
+  margin-top: 20px;
+  width: 28%;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.15);
+}
+.lodging_image {
+  width: 100%;
+  height: 170px;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+.description {
+  margin-top: 5px;
+  padding-left: 10px;
+}
+.star {
+  margin-top: 5px;
+  color: #0065fc;
+}
+.grey_star {
+  color: #f2f2f2;
+}
+.lodging_title_description {
+  font-weight: bold;
+}
+.link_more {
+  font-weight: bold;
+  display: block;
+  margin: 40px 0 0 60px;
+  font-size: 1.13em;
+}
