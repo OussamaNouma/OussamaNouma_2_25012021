@@ -211,3 +211,59 @@ input[type="search"] {
   margin: 40px 0 0 60px;
   font-size: 1.13em;
 }
+.container_aside_lodging {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 520px;
+  height: 720px;
+  margin-left: 70px;
+}
+.trending {
+  display: flex;
+  justify-content: space-between;
+}
+.title_aside {
+  margin-left: 60px;
+}
+.chart {
+  margin-right: 60px;
+  font-size: 1.6em;
+}
+.container_aside_item {
+  padding: 5px;
+  display: flex;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  width: 85%;
+  height: 160px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.15);
+}
+.aside_image {
+  width: 40%;
+  height: 100%;
+  border-radius: 20px 0px 0px 20px;
+  object-fit: cover;
+}
+
+.container_aside {
+  margin-left: 55px;
+  height: 80%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+.description_aside {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.aside_title_description {
+  font-weight: bold;
+}
+.price {
+  font-weight: bold;
+}
