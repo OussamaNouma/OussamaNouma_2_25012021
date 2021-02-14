@@ -725,7 +725,7 @@ input[type="search"] {
 }
 @media screen and (max-width: 280px) {
   .search {
-    width: 160px;
+    width: 158px;
   }
   * {
     font-size: 0.99em;
