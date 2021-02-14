@@ -47,3 +47,52 @@ button:hover {
   width: 100px;
   height: auto;
 }
+.title_research {
+  font-size: 1.35em;
+}
+.text_research {
+  margin-top: 10px;
+}
+.research_container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.form_container {
+  margin-top: 30px;
+}
+.gps {
+  width: 52px;
+  height: 50px;
+  font-size: 1.13em;
+  border-radius: 11px 0px 0px 11px;
+  background-color: #f2f2f2;
+  border: none;
+  position: relative;
+  left: 3.9px;
+}
+.search {
+  border: solid 1px#f2f2f2;
+  height: 50px;
+  width: 335px;
+}
+input[type="search"] {
+  font-size: 1.13em;
+  font-weight: bold;
+  padding-left: 18px;
+}
+.fa-search {
+  display: none;
+}
+.search_button {
+  height: 50px;
+  width: 135px;
+  background-color: #0065fc;
+  border: none;
+  border-radius: 0px 11px 11px 0px;
+  color: white;
+  position: relative;
+  right: 4px;
+  font-size: 1.13em;
+  font-weight: bold;
+}
