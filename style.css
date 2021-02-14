@@ -543,6 +543,10 @@ input[type="search"] {
   .menu_two {
     display: block;
   }
+  .menu_hover:hover {
+    border-top: none;
+    border-bottom: blue 2px solid !important;
+  }
   .upper_container {
     display: flex;
     justify-content: space-between;
