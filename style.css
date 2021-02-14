@@ -491,7 +491,7 @@ input[type="search"] {
   .activites_container :nth-child(1) {
     order: 3;
   }
-  ..activites_container :nth-child(2) {
+  .activites_container :nth-child(2) {
     order: 1;
   }
   .activites_container :nth-child(3) {
@@ -725,7 +725,7 @@ input[type="search"] {
 }
 @media screen and (max-width: 280px) {
   .search {
-    width: 158px;
+    width: 160px;
   }
   * {
     font-size: 0.99em;
