@@ -564,7 +564,7 @@ input[type="search"] {
     margin-left: 0px;
   }
 }
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 709px) {
   .bloc_page {
     margin-left: 0px;
   }
