@@ -124,7 +124,7 @@ input[type="search"] {
 }
 .filter_item:hover .filter_icon {
   background-color: #0065fc;
-  color: #deebff;
+  color: white;
 }
 .filter_icon {
   color: #0065fc;
