@@ -293,7 +293,7 @@ input[type="search"] {
 }
 .general_avtivites_image_proprety {
   border-radius: 20px 20px 0px 0px;
-  width: 405px;
+  width: 100%;
 }
 .box_background_one_four {
   margin-top: 20px;
@@ -364,7 +364,23 @@ input[type="search"] {
   padding-top: 10px;
   list-style: none;
 }
-@media screen and (max-width: 1420px) and (min-width: 710px) {
+@media screen and (max-width: 1760px) and (min-width: 1565px) {
+  .activites_container {
+    justify-content: space-around;
+  }
+  .general_activites_background_proprety {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 1566px) and (min-width: 1400px) {
+  .activites_container {
+    justify-content: space-around;
+  }
+  .general_activites_background_proprety {
+    width: 305px;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 710px) {
   .bloc_page {
     margin-left: 0px;
   }
