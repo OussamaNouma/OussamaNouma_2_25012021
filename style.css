@@ -30,10 +30,10 @@ button:hover {
   font-size: 1.13em;
   width: 500px;
 }
-.menu_hover {
+.menu_interaction {
   padding-top: 28px;
 }
-.menu_hover:hover {
+.menu_interaction:hover {
   border-top: solid 2px #0065fc;
   color: #0065fc;
 }
@@ -368,11 +368,14 @@ input[type="search"] {
   .bloc_page {
     margin-left: 0px;
   }
-  .menu_hover:hover {
+  .menu_interaction:hover {
+    color: black;
     border-top: none;
-    border-bottom: blue 2px solid !important;
   }
-
+  .menu_interaction:active {
+    border-bottom: blue 2px solid !important;
+    color: #0065fc;
+  }
   .menu_container {
     display: none;
   }
@@ -543,9 +546,13 @@ input[type="search"] {
   .menu_two {
     display: block;
   }
-  .menu_hover:hover {
+  .menu_interaction:hover {
+    color: black;
     border-top: none;
+  }
+  .menu_interaction:active {
     border-bottom: blue 2px solid !important;
+    color: #0065fc;
   }
   .upper_container {
     display: flex;
