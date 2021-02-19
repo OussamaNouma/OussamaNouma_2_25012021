@@ -386,6 +386,14 @@ input[type="search"] {
   .bloc_page {
     margin-left: 0px;
   }
+  .filter_item:active {
+    background-color: #deebff;
+    color: #0065fc;
+  }
+  .filter_item:active .filter_icon {
+    background-color: #0065fc;
+    color: white;
+  }
   .menu_interaction:hover {
     color: black;
     border-top: none;
@@ -567,6 +575,14 @@ input[type="search"] {
 @media screen and (max-width: 709px) {
   .bloc_page {
     margin-left: 0px;
+  }
+  .filter_item:active {
+    background-color: #deebff;
+    color: #0065fc;
+  }
+  .filter_item:active .filter_icon {
+    background-color: #0065fc;
+    color: white;
   }
   .menu_container {
     display: none;
