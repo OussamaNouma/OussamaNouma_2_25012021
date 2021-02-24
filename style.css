@@ -45,6 +45,7 @@ button:hover {
   width: 100px;
   height: auto;
 }
+/*Search*/
 .title_research {
   font-size: 1.35em;
 }
@@ -94,6 +95,7 @@ input[type="search"] {
   font-size: 1.13em;
   font-weight: bold;
 }
+/*Filter*/
 .filter_container {
   margin-top: 30px;
   display: flex;
@@ -155,6 +157,7 @@ input[type="search"] {
   padding-top: 1px;
   margin-right: 10px;
 }
+/*Lodging*/
 .container_lodging {
   display: flex;
   margin-top: 40px;
@@ -267,6 +270,7 @@ input[type="search"] {
 .price {
   font-weight: bold;
 }
+/*Activites*/
 .activites {
   margin-top: 50px;
 }
@@ -347,6 +351,7 @@ input[type="search"] {
   font-weight: bold;
   padding-left: 25px;
 }
+/*Footer*/
 .footer_container {
   width: 70%;
   padding-top: 50px;
@@ -364,6 +369,7 @@ input[type="search"] {
   padding-top: 10px;
   list-style: none;
 }
+/*Responsive desktop*/
 @media screen and (max-width: 1760px) and (min-width: 1565px) {
   .activites_container {
     justify-content: space-around;
@@ -380,10 +386,12 @@ input[type="search"] {
     width: 305px;
   }
 }
+/*Responsive tablet*/
 @media screen and (max-width: 1400px) and (min-width: 710px) {
   .bloc_page {
     margin-left: 0px;
   }
+  /*menu*/
   .menu :nth-child(3):hover {
     color: #0065fc !important;
   }
@@ -427,6 +435,7 @@ input[type="search"] {
     margin-top: 0px;
     margin-left: 10px;
   }
+  /*search*/
   .research_container {
     margin-left: 20px;
   }
@@ -436,6 +445,7 @@ input[type="search"] {
   .search {
     width: 475px;
   }
+  /*filter*/
   .filter_container {
     width: 90%;
     height: 120px;
@@ -449,6 +459,11 @@ input[type="search"] {
     background-color: #0065fc;
     color: white;
   }
+  .info_container {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  /*lodging*/
   .title_lodging {
     margin-left: 3%;
   }
@@ -456,16 +471,11 @@ input[type="search"] {
     display: flex;
     flex-direction: column-reverse;
   }
-  .info_container {
-    margin-top: 0px;
-    margin-left: 20px;
-  }
   .background_lodging {
     width: 100%;
     margin-top: 20px;
     height: 720px;
   }
-
   .container_aside_lodging {
     margin-left: 0px;
     width: 100%;
@@ -506,6 +516,7 @@ input[type="search"] {
   .trending {
     padding-top: 10px;
   }
+  /*Activites*/
   .title_activites {
     margin-left: 3%;
   }
@@ -563,17 +574,19 @@ input[type="search"] {
   .box_image_four {
     width: 100%;
   }
+  /*footer*/
   .footer_container {
     width: 100%;
     justify-content: space-around;
     margin-left: 0px;
   }
 }
+/*responsive for smartphone*/
 @media screen and (max-width: 709px) {
   .bloc_page {
     margin-left: 0px;
   }
-
+  /*Menu*/
   .menu_interaction:hover {
     color: black;
     border-top: none;
@@ -617,6 +630,7 @@ input[type="search"] {
     margin-left: 10px;
     margin-top: 0px;
   }
+  /*Search*/
   .title_research {
     padding-top: 0;
     width: 90%;
@@ -641,6 +655,7 @@ input[type="search"] {
   .fa-search {
     display: inline;
   }
+  /*Filter*/
   .filter_container {
     display: flex;
     flex-wrap: wrap;
@@ -669,6 +684,7 @@ input[type="search"] {
     display: flex;
     margin-left: 15px;
   }
+  /*lodging*/
   .title_aside {
     margin-left: 15px;
     margin-top: 15px;
@@ -720,6 +736,7 @@ input[type="search"] {
   .aside_title_description {
     padding-right: 0px;
   }
+  /*Activites*/
   .activites {
     margin-left: 3.5%;
     width: 93.5%;
@@ -744,6 +761,7 @@ input[type="search"] {
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
   }
+  /*Footer*/
   .footer_container {
     margin-left: 25px;
     display: flex;
@@ -754,6 +772,7 @@ input[type="search"] {
     margin-top: 10px;
   }
 }
+/*Responsive for smaller smartphone device*/
 @media screen and (max-width: 320px) and (min-width: 280px) {
   .search {
     width: 200px;
