@@ -384,9 +384,11 @@ input[type="search"] {
   .bloc_page {
     margin-left: 0px;
   }
-
+  .menu :nth-child(3):hover {
+    color: #0065fc !important;
+  }
   .menu_interaction:hover {
-    color: inherit;
+    color: black;
     border-top: none;
   }
   .menu :nth-child(3):active {
@@ -573,8 +575,11 @@ input[type="search"] {
   }
 
   .menu_interaction:hover {
-    color: inherit;
+    color: black;
     border-top: none;
+  }
+  .menu :nth-child(3):hover {
+    color: #0065fc !important;
   }
   .menu :nth-child(3):active {
     border-bottom: none !important;
