@@ -16,9 +16,7 @@ button:hover {
   margin-left: 50px;
 }
 /*Menu*/
-.menu_two {
-  display: none;
-}
+
 .menu_container {
   display: flex;
   justify-content: space-between;
@@ -113,7 +111,7 @@ input[type="search"] {
   height: 50px;
   background-color: white;
   border-radius: 25px;
-  border: 2.4px solid #f2f2f2;
+  border: 2px solid #d9d9d9;
   padding-right: 20px;
   font-weight: bold;
   font-size: 1.13em;
@@ -132,8 +130,8 @@ input[type="search"] {
   background-color: #deebff;
   border-radius: 100%;
   position: relative;
-  right: 12px;
-  padding: 12px;
+  right: 5px;
+  padding: 13px;
 }
 .fa-child {
   padding-left: 5px;
@@ -386,57 +384,46 @@ input[type="search"] {
   .bloc_page {
     margin-left: 0px;
   }
-  .filter_item:active {
-    background-color: #deebff;
-    color: #0065fc;
-  }
-  .filter_item:active .filter_icon {
-    background-color: #0065fc;
-    color: white;
-  }
+
   .menu_interaction:hover {
-    color: black;
+    color: inherit;
     border-top: none;
+  }
+  .menu :nth-child(3):active {
+    border-bottom: none !important;
   }
   .menu_interaction:active {
     border-bottom: blue 2px solid !important;
     color: #0065fc;
   }
+  .menu {
+    width: 100%;
+  }
+  .menu :nth-child(3) {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+  }
+  .menu :nth-child(2) {
+    order: 1;
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+  }
+  .menu :nth-child(1) {
+    order: 2;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid lightgray;
+  }
   .menu_container {
-    display: none;
-  }
-  .menu_two {
-    display: block;
-  }
-  .upper_container {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 100px 0 100px;
-  }
-  .lower_container {
-    display: flex;
-    justify-content: space-around;
-  }
-  .upper_container :nth-child(2) {
-    font-weight: bold;
-    color: #0065fc;
-    margin-top: 18px;
-  }
-  .lower_container :nth-child(1) {
-    width: 50%;
-    text-align: center;
-    margin-bottom: 22px;
-    padding-bottom: 20px;
-    border-bottom: lightgrey 2px solid;
-  }
-  .lower_container :nth-child(2) {
-    width: 50%;
-    text-align: center;
-    margin-bottom: 22px;
-    border-bottom: lightgrey 2px solid;
+    margin-top: 20px;
+    flex-direction: column;
   }
   .reservia {
     margin-top: 0px;
+    margin-left: 10px;
   }
   .research_container {
     margin-left: 20px;
@@ -451,6 +438,14 @@ input[type="search"] {
     width: 90%;
     height: 120px;
     margin-left: 20px;
+  }
+  .filter_item:active {
+    background-color: #deebff;
+    color: #0065fc;
+  }
+  .filter_item:active .filter_icon {
+    background-color: #0065fc;
+    color: white;
   }
   .title_lodging {
     margin-left: 3%;
@@ -576,57 +571,45 @@ input[type="search"] {
   .bloc_page {
     margin-left: 0px;
   }
-  .filter_item:active {
-    background-color: #deebff;
-    color: #0065fc;
-  }
-  .filter_item:active .filter_icon {
-    background-color: #0065fc;
-    color: white;
-  }
-  .menu_container {
-    display: none;
-  }
-  .menu_two {
-    display: block;
-  }
+
   .menu_interaction:hover {
-    color: black;
+    color: inherit;
     border-top: none;
+  }
+  .menu :nth-child(3):active {
+    border-bottom: none !important;
   }
   .menu_interaction:active {
     border-bottom: blue 2px solid !important;
     color: #0065fc;
   }
-  .upper_container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 10px 0 10px;
+  .menu {
+    width: 100%;
   }
-  .lower_container {
-    display: flex;
-    justify-content: space-around;
+  .menu :nth-child(3) {
+    position: absolute;
+    top: 5px;
+    right: 15px;
   }
-  .upper_container :nth-child(2) {
-    font-weight: bold;
-    color: #0065fc;
-    margin-top: 18px;
-  }
-  .lower_container :nth-child(1) {
+  .menu :nth-child(2) {
+    order: 1;
     width: 50%;
     text-align: center;
-    margin-bottom: 22px;
-    padding-bottom: 20px;
-    border-bottom: lightgrey 2px solid;
+    border-bottom: 2px solid lightgray;
   }
-  .lower_container :nth-child(2) {
+  .menu :nth-child(1) {
+    order: 2;
     width: 50%;
     text-align: center;
-    margin-bottom: 22px;
-    border-bottom: lightgrey 2px solid;
+    padding-bottom: 15px;
+    border-bottom: 2px solid lightgray;
+  }
+  .menu_container {
+    margin-top: 20px;
+    flex-direction: column;
   }
   .reservia {
-    padding-top: 0;
+    margin-left: 10px;
     margin-top: 0px;
   }
   .title_research {
@@ -662,7 +645,6 @@ input[type="search"] {
   .filter_item {
     margin-top: 10px;
   }
-
   .text_filter {
     margin-bottom: 10px;
     padding-right: 110px;
