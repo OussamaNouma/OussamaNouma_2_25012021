@@ -415,13 +415,11 @@ input[type="search"] {
     right: 30px;
   }
   .menu :nth-child(2) {
-    order: 1;
     width: 50%;
     text-align: center;
     border-bottom: 2px solid lightgray;
   }
   .menu :nth-child(1) {
-    order: 2;
     width: 50%;
     text-align: center;
     padding-bottom: 15px;
@@ -610,13 +608,11 @@ input[type="search"] {
     right: 15px;
   }
   .menu :nth-child(2) {
-    order: 1;
     width: 50%;
     text-align: center;
     border-bottom: 2px solid lightgray;
   }
   .menu :nth-child(1) {
-    order: 2;
     width: 50%;
     text-align: center;
     padding-bottom: 15px;
