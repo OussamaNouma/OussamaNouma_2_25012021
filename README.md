@@ -1,8 +1,11 @@
 # P2_Oussama_Nouma
-Projet Open classroom N°2 - Reservia / Parcours Développeur Web
 
-Lien : https://oussamanouma.github.io/OussamaNouma_2_25012021/
+Projet Personnel #2 - Reservia
 
-Reservia est un projet réalisé dans le cadre de ma formation de Développeur Web chez Openclassrooms, le site est réalisé en HTML & CSS et se doit d'être responsive. 
-Ce site web ne contient qu'une page et de ce fait les liens ne mènent à rien à part ceux de la navigation excepté "s'inscrire".
+Lien du projet : https://oussamanouma.github.io/OussamaNouma_2_25012021/
 
+Reservia est un projet personnel que j'ai développé dans le cadre de mon parcours en tant que Développeur Web. Le site est entièrement conçu en HTML et CSS, avec une approche responsive pour assurer une expérience utilisateur optimale sur tous les dispositifs.
+
+Ce site web, composé d'une seule page, propose une interface utilisateur fluide et intuitive. Les liens de navigation sont fonctionnels, à l'exception de "s'inscrire", qui ne renvoie à aucune action spécifique compte tenu de la nature monopage du site.
+
+N'hésitez pas à explorer le projet en suivant le lien : [Reservia](https://oussamanouma.github.io/OussamaNouma_2_25012021/).
